@@ -1,0 +1,17 @@
+.faq-list-item {
+  margin:0 auto;
+  width:650px;
+}
+
+.mdl-list__item {
+  border-bottom:1px solid rgba(0,0,0,.87);
+}
+
+.mdl-list__item:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,.10);
+}
+
+.mdl-list__item--three-line {
+  height:100px;
+}

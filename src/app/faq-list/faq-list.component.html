@@ -1,0 +1,17 @@
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col">
+    <ul class="faq-list-item mdl-list">
+      <li (click)="handleListItemClick(i)" *ngFor="let item of items; let i = index" class="{{item.listItemClass}}">
+        <span class="mdl-list__item-primary-content">
+          <span> {{item.question}}</span>
+          <span [hidden]="item.hidden" class="mdl-list__item-text-body">
+            {{item.answer}}
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+            <i class="fas fa-xs {{item.ListItemIcon}}"></i>
+            </span>
+      </li>
+    </ul>
+  </div>
+</div>
